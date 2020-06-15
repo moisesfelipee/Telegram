@@ -133,8 +133,8 @@ cpf_entry = Entry(frame_cpf)
 cpf_entry.place(relx=0.01, rely=0.03, height=26, width=170)
 
 # TELEGRAM SETUP
-api_id = xxx
-api_hash = 'xxxx'
+api_id = 1311637
+api_hash = '149718fbbd581b34c98c8a214b997222'
 
 client = TelegramClient('session_name', api_id, api_hash)
 client.start()
